@@ -8,3 +8,4 @@ L1:	INC	A
 	MOV	RESULT,A
 	RET
 	END
+ 
