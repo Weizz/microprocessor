@@ -1,0 +1,13 @@
+CSEG	AT	00H
+	MOV	A,#5
+	JMP	L2
+
+L1:	INC	A
+	JMP	L3
+
+L2:	DEC	A
+	DEC	A
+	JMP	L1
+
+L3:	RET
+	END		;A = 4
